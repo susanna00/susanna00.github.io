@@ -1,3 +1,4 @@
+/* Layout Stuff */
 * {
   box-sizing: border-box;
 }
@@ -12,26 +13,123 @@
   align-items: center;
 }
 #light {
-  background: #000080; #changed background color to navy blue 
+  background: #006700;
 }
 #dark {
-  background: #fff44f; #changed color background to bright yellow 
+  background: #000033;
 }
+#new {
+  background-image: linear-gradient(#ffe5b4, #f88379);
+}
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 400px;
+  margin: 0 auto;
+  background: #65000b;
+  border-radius: 10px;
+  opacity: 0.5;
+} 
 .container {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
   width: 600px;
   margin: 0 auto;
-  background: #4169e1; #
+  background: #fff;
   border-radius: 10px;
-  background-image: linear-gradient(to right, red , yellow); #adding gradient color to background
 }
 .person {
   width: 196px;
   height: 196px;
   position: relative;
   overflow: hidden;
+}
+#susanna .body{
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  background: transparent;
+  top: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 40px;
+  z-index: 1;
+  overflow: hidden;
+}
+#susanna .face {
+  position: absolute;
+  width: 80px;
+  height: 75px;
+  background: #ffd1dc;
+  border-radius: 50%;
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+#susanna .hair {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 43px;
+  width: 80px;
+  height: 80px;
+  background: #F0E68C;
+  border-radius: 50%;
+}
+
+#susanna .hair:before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 75%;
+  left: 50%;
+  top: -10px;
+  background: #F0E68C;
+  transform: translateX(-50%);
+}
+#susanna .eyes{
+  position: absolute;
+  top: 30px;
+  width: 10px;
+  height: 10px;
+  background: 	#556B2F;
+  border-radius: 50%;
+  left: 25%;
+  transform: translateX(-50%);
+}
+#susanna .eyes:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #556B2F;
+  top: 0;
+  border-radius: 50%;
+  right: -40px;
+}
+#susanna .nose{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 14px;
+  background: #FFB6C1;
+  top: 31px;
+  border-radius: 4px;
+}
+#susanna .mouth{
+  position: absolute;
+  background: #a94064;
+width: 30px;
+  height: 8px;
+  border-radius: 0 0 85px 85px;
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 /* Finn */
 #finn .body {
@@ -141,18 +239,17 @@
   border-radius: 4px;
 }
 #finn .mouth {
- position: absolute;
+  position: absolute;
   background: #2f1d16;
- width: 30px;
-  height: 8px;
-  border-radius: 0 0 100px 100px;
-  top: 60px;
+  width: 30px;
+  height: 4px;
+  border-radius: 0 0 5px 5px;
+  top: 55px;
   left: 50%;
   transform: translateX(-50%);
-}                               #adding Finn smile 
 }
 #finn .jacket {
-  background: #b22222;
+  background: #d1a868;
   position: absolute;
   top: 0;
   width: 30%;
@@ -170,7 +267,7 @@
   position: absolute;
   top: 0;
   height: 110%;
-  background: #ff8c00;
+  background: #a27631;
 }
 #finn .jacket-left:after {
   left: 100%;
@@ -182,7 +279,7 @@
 }
 #finn .jacket-left:before {
   content: "";
-  background: #ff8c00;
+  background: #a61c19;
   position: absolute;
   top: 0;
   left: 0;
@@ -191,13 +288,13 @@
 }
 #finn .jacket-right:before {
   content: "";
-  background: #ff8c00;
+  background: #a61c19;
   position: absolute;
   top: 20px;
   left: 0;
   width: 100%;
   height: 10px;
-} #changed Finn's colors 
+}
 /* Rey */
 #rey .body {
   position: absolute;
@@ -1364,3 +1461,4 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
