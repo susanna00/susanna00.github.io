@@ -42,8 +42,84 @@ p{
 img {
   position: center;
   height: 150px;
-  margin-top: 10px;
+  margin-top: 10px
   margin-left: 120px;
+}
+
+h6 {
+  color: #65000b;
+  font-family: georgia;
+  font-size: 100%
+  text-align: center;
+  vertical-align: top;
+}
+
+#horse  {
+  background-image: linear-gradient(#FFC0CB, #f49ac2);
+}
+
+#horse .h1 {
+  color: #65000b;
+  font-family: georgia;
+  font-size: 75px;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 10%;
+}
+
+iframe {
+    position: center;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+/* Layout Stuff */
+* {
+  box-sizing: border-box;
+}
+.Page {
+  width: 100%;
+  padding: 64px 32px;
+  position: relative;
+  height: 50vh;
+  min-height: 324px;
+  justify-content: center;
+  align-content: center;
+}
+#First {
+  background-image: linear-gradient(#ffd5d1, #f6909d);
+}
+h1 {
+  color: #65000b;
+  font-family: georgia;
+  font-size: 300%;
+  text-align: center;
+  vertical-align: top;
+}
+p{
+  font-family: georgia;
+  text-align: justify; 
+  vertical-align: bottom; 
+}
+
+#travel {
+  background-image: linear-gradient(#ffd5d1, #ff9999);
+}
+
+#travel .h1 {
+  color: #65000b;
+  font-family: georgia;
+  font-size: 150%;
+  text-align: center;
+  vertical-align: top;
+}
+
+img {
+  position: center;
+  height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h6 {
@@ -68,8 +144,7 @@ h6 {
 }
 
 iframe {
-    position: center;
-  height: 150px;
-  margin-top: 10px;
-  margin-left: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
