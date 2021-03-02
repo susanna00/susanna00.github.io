@@ -46,7 +46,7 @@ img {
     margin-right: auto;
 }
 
-h6 {
+#travel .p {
   color: #65000b;
   font-family: georgia;
   font-size: 100%;
@@ -72,4 +72,8 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+a {
+  color: pink;
 }
