@@ -5,8 +5,8 @@
   width: 100%;
   padding: 64px 32px;
   position: relative;
-  height: 75vh;
-  min-height: 400px;
+  height: 40vh;
+  min-height: 364px;
   justify-content: center;
   align-content: center;
 }
